@@ -1,12 +1,12 @@
-@import 'reset.css';
-@import '_variables.css';
-@import '_common.css';
-@import 'components/_burger.css';
-@import 'components/_header.css';
-@import 'components/_about.css';
-@import 'components/_skils.css';
-@import 'components/_portfolio.css';
-@import 'components/_footer.css';
+@import url('reset.css');
+@import url('_variables.css');
+@import url('_common.css');
+@import url('components/_burger.css');
+@import url('components/_header.css');
+@import url('components/_about.css');
+@import url('components/_skils.css');
+@import url('components/_portfolio.css');
+@import url('components/_footer.css');
 
 
 
