@@ -1,0 +1,17 @@
+#about {
+    padding: 81px 0 76px;
+    background-color: var(--section-bg);
+}
+
+.about__title {
+    margin-bottom: 30px;
+}
+
+.about__content {
+    font-size: 18px;
+    text-align: center;
+}
+
+.about__content p:not(:last-child) {
+    margin-bottom: 30px;
+}
