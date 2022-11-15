@@ -1,1 +1,1 @@
-# bohdanalu.io
+# bohdanalu.github.io
