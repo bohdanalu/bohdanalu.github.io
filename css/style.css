@@ -1,0 +1,25 @@
+@import 'reset.css';
+@import '_variables.css';
+@import '_common.css';
+@import 'components/_burger.css';
+@import 'components/_header.css';
+@import 'components/_about.css';
+@import 'components/_skils.css';
+@import 'components/_portfolio.css';
+@import 'components/_footer.css';
+
+
+
+@font-face {
+    font-family: Gilroy500;
+    src: url('../fonts/Gilroy-Medium.ttf') format("truetype"),
+        url('../fonts/Gilroy-Medium.woff') format("woff");
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: Gilroy700;
+    src: url('../fonts/Gilroy-Bold.ttf') format("truetype"),
+        url('../fonts/Gilroy-Bold.woff') format("woff");
+    font-weight: bold;
+}

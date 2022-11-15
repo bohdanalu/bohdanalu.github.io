@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item active"><a class="header__link" href="#">Home</a></li>
+                        <li class="header__item"><a class="header__link" href="#about">About me</a></li>
+                        <li class="header__item"><a class="header__link" href="#skils">Skils</a></li>
+                        <li class="header__item"><a class="header__link" href="#portfolio">Portfolio</a></li>
+                        <li class="header__item"><a class="header__link" href="#contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+                <div class="lang">
+                    <ul class="lang__list">
+                        <li class="lang__item"><a class="lang__link" href="#">Uk</a></li>
+                        <li class="lang__item active"><a class="lang__link" href="#">Eng</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <h1 class="header__title">
+                    Denis <br>
+                    Novik
+                </h1>
+                <h2 class="header__subtitle">
+                    UX | UI designer <br>
+                    24 years old, Lviv
+                </h2>
+                <div class="lang lang--revers">
+                    <ul class="lang__list">
+                        <li class="lang__item"><a class="lang__link" href="#">Uk</a></li>
+                        <li class="lang__item active"><a class="lang__link" href="#">Eng</a></li>
+                    </ul>
+                </div>
+
+                <button class="burger" type="button" aria-label="Open menu">
+                    <span class="burger-line"></span>
+                </button>
+            </div>
+            <picture>
+                <source srcset="images/bg.jpg" media="(min-width: 600px)">
+                <img class="img" src="images/bg-small.jpg" alt="Photo">
+            </picture>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="about">
+            <div class="container container--small">
+                <h2 class="about__title title">About me</h2>
+                <div class="about__content">
+                    <p>Hi, I'm Denis – UX/UI designer from Minsk.
+                        I'm interested in design and everything connected with it.
+                    </p>
+                    <p>
+                        I'm studying at courses "Web and mobile design
+                        interfaces" in IT-Academy.
+                    </p>
+                    <p>
+                        Ready to implement excellent projects
+                        with wonderful people.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skils">
+            <div class="container container--small">
+                <h2 class="skils__title title">Skils</h2>
+                <h3 class="skils__subtitle">
+                    I work in such programs as
+                </h3>
+                <ul class="skils__list">
+                    <li class="skils__item">
+                        <svg class="icon icon-brand">
+                            <use xlink:href="images/sprite.svg#ps"></use>
+                        </svg>
+                        <h4 class="skils__item-title line-clamp">
+                            Adobe Photoshop
+                        </h4>
+                        <svg class="icon icon-star">
+                            <use xlink:href="images/sprite.svg#star_roup"></use>
+                        </svg>
+                    </li>
+                    <li class="skils__item">
+                        <svg class="icon icon-brand">
+                            <use xlink:href="images/sprite.svg#ai"></use>
+                        </svg>
+                        <h4 class="skils__item-title line-clamp">
+                            Adobe Illustrator
+                        </h4>
+                        <svg class="icon icon-star">
+                            <use xlink:href="images/sprite.svg#star_roup"></use>
+                        </svg>
+                    </li>
+                    <li class="skils__item">
+                        <svg class="icon icon-brand">
+                            <use xlink:href="images/sprite.svg#ae"></use>
+                        </svg>
+                        <h4 class="skils__item-title line-clamp">
+                            Adobe After Effects
+                        </h4>
+                        <svg class="icon icon-star">
+                            <use xlink:href="images/sprite.svg#star_roup"></use>
+                        </svg>
+                    </li>
+                    <li class="skils__item">
+                        <svg class="icon icon-brand">
+                            <use xlink:href="images/sprite.svg#figma"></use>
+                        </svg>
+                        <h4 class="skils__item-title line-clamp">
+                            Figma
+
+                        </h4>
+                        <svg class="icon icon-star">
+                            <use xlink:href="images/sprite.svg#star_roup"></use>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="container container--small">
+                <h2 class="portfolio__title title">Portfolio</h2>
+                <ul class="portfolio__list">
+                    <li class="portfolio__item">
+                        <img class="portfolio__img" src="images/works/levis.jpg"
+                            alt="Photo my work -   Online fashion store - Homepage">
+                        <a class="portfolio__link" href="#">
+                            Online fashion store - Homepage
+                        </a>
+                    </li>
+                    <li class="portfolio__item">
+                        <img class="portfolio__img" src="images/works/reebok.jpg"
+                            alt="Photo my work -  Reebok Store - Concept">
+                        <a class="portfolio__link" href="#">
+                            Reebok Store - Concept
+                        </a>
+                    </li>
+                    <li class="portfolio__item">
+                        <img class="portfolio__img" src="images/works/braun.jpg"
+                            alt="Photo my work - Braun Landing Page - Concept">
+                        <a class="portfolio__link" href="#">
+                            Braun Landing Page - Concept
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <h2 class="footer__title title">
+                Contacts
+            </h2>
+            <h3 class="footer__subtitle">
+                Want to know more or just chat? You are welcome!
+            </h3>
+            <button class="footer__btn" type="button">Send message</button>
+            <ul class="footer__social">
+                <li class="footer__social-item">
+                    <a class="footer__social-link" href="#">
+                        <svg class="icon">
+                            <use xlink:href="images/sprite.svg#in"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a class="footer__social-link" href="#">
+                        <svg class="icon">
+                            <use xlink:href="images/sprite.svg#insta"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a class="footer__social-link" href="#">
+                        <svg class="icon">
+                            <use xlink:href="images/sprite.svg#be"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a class="footer__social-link" href="#">
+                        <svg class="icon">
+                            <use xlink:href="images/sprite.svg#ball"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+            <span class="footer__like">
+                Like me on <br>
+                LinkedIn, Instagram, Behance, Dribble
+            </span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
