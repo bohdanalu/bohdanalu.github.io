@@ -32,7 +32,8 @@
 
 .icon-brand {
     width: 89px;
-    height: 89px;
+    height: 99px;
+    object-fit: cover;
     margin-bottom: 20px;
 }
 
@@ -45,10 +46,10 @@
     .skils__list {
         flex-direction: row;
         justify-content: space-between;
-        column-gap: 90px;
+        gap: 40px;
     }
 
     .skils__item {
-        width: 25%;
+        width: 20%;
     }
 }
