@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1220px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header,
+#footer {
+    padding: 20px 0;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.burger {
+    display: none;
+    background-color: transparent;
+    border-color: transparent;
+    outline: transparent;
+}
+
+.logo {
+    width: 70px;
+    background-color: lightblue;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 24px;
+}
+
+.nav-wrap {
+    display: flex;
+    gap: 35px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 35px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.social-img {
+    width: 24px;
+    height: 24px;
+}
+
+.main-block {
+    height: calc(100vh - 50px);
+    background-color: #bbbbbb;
+}
+
+.main-content {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.title {
+    font-size: 48px;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+.title,
+.subtitle {
+    margin-bottom: 35px;
+}
+
+.button {
+    padding: 10px 15px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.text {
+    padding: 60px 0;
+}
+
+.text,
+#footer {
+    text-align: center;
+}
+
+.text .subtitle {
+    color: red;
+}
+
+.text-blockquote {
+    margin-bottom: 50px;
+}
+
+.text-text {
+    margin-bottom: 50px;
+}
+
+#footer,
+.button {
+    background-color: #000;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .burger {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+    }
+}
