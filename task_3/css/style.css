@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1054px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 25px 63px 47px 50px;
+    background: rgb(40, 31, 33);
+    background: linear-gradient(90deg, rgba(40, 31, 33, 1) 0%, rgba(71, 55, 52, 1) 35%);
+    text-transform: uppercase;
+}
+
+.inner {
+    height: 395px;
+    background-color: white;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.clearfix,
+.clearfix::after,
+.clearfix::before {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.img-wrap {
+    position: relative;
+    width: 33%;
+    height: 100%;
+    background-image: url('https://mambeno.co.uk/wp-content/uploads/2020/03/Italiensk-burger-med-stegte-kartofler-1600x1067.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30%;
+    float: left;
+}
+
+.content {
+    position: absolute;
+    padding: 40px 65px 30px 70px;
+    bottom: 20px;
+    left: -7px;
+    background-color: #000;
+    color: #fff;
+}
+
+.title {
+    max-width: 176px;
+    margin-bottom: 7px;
+    font-size: 38px;
+    text-align: left;
+    line-height: 0.9;
+    color: white;
+}
+
+.title span {
+    display: block;
+    text-align: center;
+}
+
+.title~span {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fdca19;
+}
+
+.title~span>span {
+    color: #fff;
+}
+
+.menu-wrap {
+    width: 67%;
+    padding: 45px 90px 40px 70px;
+    float: right;
+}
+
+.subtitle {
+    text-transform: none;
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.menu-list {
+    max-width: 200px;
+    width: 100%;
+    padding: 0;
+    float: left;
+}
+
+.menu-list:last-child {
+    float: right;
+}
+
+.menu-item {
+    position: relative;
+    padding: 20px 0;
+    border-bottom: 1px solid #d5d5d5;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu-item::after {
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    bottom: -4px;
+    transform: rotate(45deg);
+    background-color: #d5d5d5;
+}
+
+.menu-item>span {
+    display: block;
+    color: #999999;
+    font-weight: normal;
+}
+
+.btn-wrap {
+    position: relative;
+}
+
+.btn {
+    display: block;
+    position: absolute;
+    right: 0;
+    padding: 20px 42px;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: transparent;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+    transition: all 0.4s ease;
+}

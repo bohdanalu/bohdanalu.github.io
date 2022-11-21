@@ -1,0 +1,257 @@
+/*
+* Background Images - Practice
+* CSS Styles
+*
+*/
+
+
+/* General */
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    background-color: #383838;
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 865px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.button {
+    font-size: 17px;
+    background: linear-gradient(90deg, rgba(223, 4, 7, 1) 0%, rgba(240, 30, 63, 1) 50%, rgba(253, 51, 106, 1) 100%);
+    transition: all 0.4s ease;
+}
+
+.button:hover,
+button:hover {
+    background: #383838;
+    transition: all 0.4s ease;
+}
+
+h2 {
+    margin-bottom: 36px;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+h3,
+.tour-date,
+.tour-place {
+    margin-left: 12px;
+}
+
+/* Header */
+
+header {
+    background-image: url("../img/bg-01.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#topbar {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 10px;
+}
+
+#topbar::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+nav {
+    position: relative;
+    z-index: 2;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 100px;
+}
+
+.menu>li {
+    padding: 18px 20px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.menu>li:hover {
+    background-color: #b71a34;
+    transition: background-color 0.2s ease-in-out;
+}
+
+header>.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 135px 0px 108px;
+}
+
+h1 {
+    margin-bottom: 53px;
+    font-family: Metal Mania, sans-serif;
+    font-size: 10.7vmin;
+    text-align: center;
+}
+
+header .button {
+    padding: 19px 45px;
+}
+
+/* Tour */
+
+#tour {
+    padding-top: 36px;
+    text-align: center;
+}
+
+.tour-card {
+    display: inline-block;
+    max-width: 201px;
+    width: 100%;
+    margin: 0 6px 12px;
+    padding: 36px 0 66px;
+    box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.tour-card.madrid {
+    background: linear-gradient(88deg, rgba(0, 0, 0, 0.35) 0%, rgba(23, 23, 23, 0.35)), url("../img/tour/madrid.jpg");
+}
+
+.tour-card.turin {
+    background-image: linear-gradient(88deg, rgba(0, 0, 0, 0.35) 0%, rgba(23, 23, 23, 0.35)), url("../img/tour/turin.jpg");
+}
+
+.tour-card.hamburg {
+    background-image: linear-gradient(88deg, rgba(0, 0, 0, 0.35) 0%, rgba(23, 23, 23, 0.35)), url("../img/tour/hamburg.jpg");
+}
+
+.tour-card.krakow {
+    background-image: linear-gradient(88deg, rgba(0, 0, 0, 0.35) 0%, rgba(23, 23, 23, 0.35)), url("../img/tour/krakow.jpg");
+}
+
+.tour-card .button {
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 145px;
+    width: 100%;
+    padding: 8px 20px;
+}
+
+.tour-place {
+    margin-bottom: 8px;
+    text-transform: none;
+}
+
+.tour-date {
+    margin-bottom: 20px;
+    text-transform: none;
+    font-style: italic;
+}
+
+/* Gallery */
+
+#gallery {
+    padding: 35px 0;
+    text-align: center;
+}
+
+.photo {
+    display: inline-block;
+    max-width: 273px;
+    width: 100%;
+    height: 273px;
+    margin: 6px;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+#gallery h2 {
+    margin-bottom: 41px;
+}
+
+/* Subscribe */
+
+#subscribe {
+    padding: 72px 0;
+    background-image: url(../img/bg-02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.pitch {
+    margin-bottom: 27px;
+}
+
+.pitch p {
+    text-transform: none;
+}
+
+input {
+    padding: 8px;
+    border-color: transparent;
+    outline: transparent;
+    font-size: 16px;
+}
+
+button {
+    padding: 11px 12px;
+    text-transform: uppercase;
+    background: rgb(223, 4, 7);
+    background: linear-gradient(90deg, rgba(223, 4, 7, 1) 0%, rgba(240, 30, 63, 1) 50%, rgba(253, 51, 106, 1) 100%);
+    font-size: 16px;
+    color: inherit;
+    border: transparent;
+}
+
+/* Footer */
+
+footer {
+    padding: 28px 0;
+    text-align: center;
+}
+
+.social {
+    margin-bottom: 17px;
+    transition: color 0.2s ease;
+}
+
+.social a:hover {
+    color: #f92d5d;
+    transition: color 0.2s ease;
+}
+
+.social a:not(:last-child) {
+    margin-right: 8px;
+}
+
+.copyright {
+    text-transform: none;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 450px) {}
