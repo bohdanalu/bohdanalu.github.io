@@ -1,0 +1,59 @@
+{
+  "title": "Обов'язково додайте своє замовлення",
+
+  "products": [
+    {
+      "category": "Математика",
+      "badge": [{ "badgeHit": true }, { "badgeNew": false }],
+      "image": "images/math.png",
+      "title": "Котосови",
+      "sale": false,
+      "oldPrice": 150,
+      "price": 100,
+      "btns": [{ "btnSoon": true }, { "btnCart": false }],
+      "availability": false
+    },
+    {
+      "category": "Подарунок",
+      "badge": [{ "badgeHit": false }, { "badgeNew": false }],
+      "image": "images/g1.png",
+      "title": "Набір розумника",
+      "sale": true,
+      "oldPrice": 210,
+      "price": 190,
+      "btns": [
+        { "btnSoon": "Незабаром у продажі" },
+        { "btnCart": "У корзину" }
+      ],
+      "availability": true
+    },
+    {
+      "category": "Усний рахунок",
+      "badge": [{ "badgeHit": true }, { "badgeNew": false }],
+      "image": "images/turbo.png",
+      "title": "Турборахунок",
+      "sale": false,
+      "oldPrice": 0,
+      "price": 320,
+      "btns": [
+        { "btnSoon": "Незабаром у продажі" },
+        { "btnCart": "У корзину" }
+      ],
+      "availability": true
+    },
+    {
+      "category": "Букви та читання",
+      "badge": [{ "badgeHit": true }, { "badgeNew": false }],
+      "image": "images/zb.png",
+      "title": "Тваринобукви",
+      "sale": false,
+      "oldPrice": 0,
+      "price": 320,
+      "btns": [
+        { "btnSoon": "Незабаром у продажі" },
+        { "btnCart": "У корзину" }
+      ],
+      "availability": true
+    }
+  ]
+}
