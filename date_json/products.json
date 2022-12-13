@@ -10,7 +10,7 @@
       "sale": false,
       "oldPrice": 150,
       "price": 100,
-      "btns": [{ "btnSoon": true }, { "btnCart": false }],
+      "btn": true,
       "availability": false
     },
     {
@@ -21,10 +21,7 @@
       "sale": true,
       "oldPrice": 210,
       "price": 190,
-      "btns": [
-        { "btnSoon": "Незабаром у продажі" },
-        { "btnCart": "У корзину" }
-      ],
+      "btn": true,
       "availability": true
     },
     {
@@ -35,24 +32,18 @@
       "sale": false,
       "oldPrice": 0,
       "price": 320,
-      "btns": [
-        { "btnSoon": "Незабаром у продажі" },
-        { "btnCart": "У корзину" }
-      ],
+      "btn": true,
       "availability": true
     },
     {
       "category": "Букви та читання",
-      "badge": [{ "badgeHit": true }, { "badgeNew": false }],
+      "badge": [{ "badgeHit": false }, { "badgeNew": true }],
       "image": "images/zb.png",
       "title": "Тваринобукви",
       "sale": false,
       "oldPrice": 0,
       "price": 320,
-      "btns": [
-        { "btnSoon": "Незабаром у продажі" },
-        { "btnCart": "У корзину" }
-      ],
+      "btn": true,
       "availability": true
     }
   ]
