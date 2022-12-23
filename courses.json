@@ -1,0 +1,76 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "img": "/src/assets/images/card/bell.png",
+      "badge": "Marketing",
+      "title": "The Ultimate Google Ads Training Course",
+      "price": 100,
+      "speacer": "Jerome Bell"
+    },
+    {
+      "id": 2,
+      "img": "/src/assets/images/card/mcKinny.png",
+      "badge": "Management",
+      "title": "Prduct Management Fundamentals",
+      "price": 480,
+      "speacer": "Marvin McKinney"
+    },
+    {
+      "id": 3,
+      "img": "/src/assets/images/card/li.png",
+      "badge": "HR & Recruting",
+      "title": "HR  Management and Analytics",
+      "price": 200,
+      "speacer": "Leslie Alexander Li"
+    },
+    {
+      "id": 4,
+      "img": "/src/assets/images/card/watson.png",
+      "badge": "Marketing",
+      "title": "Brand Management & PR Communications",
+      "price": 530,
+      "speacer": "Kristin Watson"
+    },
+    {
+      "id": 5,
+      "img": "/src/assets/images/card/hawkins.png",
+      "badge": "Design",
+      "title": "Graphic Design Basic",
+      "price": 500,
+      "speacer": "by Guy Hawkins"
+    },
+    {
+      "id": 6,
+      "img": "/src/assets/images/card/russel.png",
+      "badge": "Management",
+      "title": "Business Development Management",
+      "price": 400,
+      "speacer": "Dianne Russell"
+    },
+    {
+      "id": 7,
+      "img": "/src/assets/images/card/simmons.png",
+      "badge": "Development",
+      "title": "Highload Software Architecture",
+      "price": 600,
+      "speacer": "Brooklyn Simmons"
+    },
+    {
+      "id": 8,
+      "img": "/src/assets/images/card/murphy.png",
+      "badge": "HR & Recruting",
+      "title": "Human Resources – Selection and Recruitment",
+      "price": 150,
+      "speacer": "Kathryn Murphy"
+    },
+    {
+      "id": 9,
+      "img": "/src/assets/images/card/fisher.png",
+      "badge": "Design",
+      "title": "User Experience. Human-centered Design",
+      "price": 240,
+      "speacer": "Cody Fisher"
+    }
+  ]
+}
