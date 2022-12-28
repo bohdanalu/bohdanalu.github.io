@@ -46,7 +46,7 @@
   },
   {
     "id": 6,
-    "img": "/src/assets/images/card/russel.png",
+    "img": "/src/assets/images/card/russell.png",
     "badge": "Management",
     "class": "card__badge--management",
     "title": "Business Development Management",

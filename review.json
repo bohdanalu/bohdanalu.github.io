@@ -1,0 +1,23 @@
+[
+  {
+    "id": "t1",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.",
+    "img": "/src/assets/images/home_page/review.jpg",
+    "name": "Eleanor Pena",
+    "position": "Course"
+  },
+  {
+    "id": "t2",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg",
+    "name": "Mark Zuckerberg",
+    "position": "Course"
+  },
+  {
+    "id": "t3",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.",
+    "img": "https://imgix.ranker.com/user_node_img/50040/1000793985/original/young-elvis-presley-in-black-shirt-closeup-headshot-photo-u1?w=650&q=50&fm=pjpg&fit=crop&crop=faces",
+    "name": "Elvis Presley",
+    "position": "Course"
+  }
+]
