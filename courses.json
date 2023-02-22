@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "img": "/src/assets/images/card/bell.png",
+    "img": "bell.png",
     "badge": "Marketing",
     "class": "card__badge--marketing",
     "title": "The Ultimate Google Ads Training Course",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "img": "/src/assets/images/card/mcKinny.png",
+    "img": "mcKinny.png",
     "badge": "Management",
     "class": "card__badge--management",
     "title": "Prduct Management Fundamentals",
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "img": "/src/assets/images/card/li.png",
+    "img": "li.png",
     "badge": "HR & Recruting",
     "class": "card__badge--hr",
     "title": "HR  Management and Analytics",
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "img": "/src/assets/images/card/watson.png",
+    "img": "watson.png",
     "badge": "Marketing",
     "class": "card__badge--marketing",
     "title": "Brand Management & PR Communications",
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "img": "/src/assets/images/card/hawkins.png",
+    "img": "hawkins.png",
     "badge": "Design",
     "class": "card__badge--design",
     "title": "Graphic Design Basic",
@@ -46,7 +46,7 @@
   },
   {
     "id": 6,
-    "img": "/src/assets/images/card/russell.png",
+    "img": "russell.png",
     "badge": "Management",
     "class": "card__badge--management",
     "title": "Business Development Management",
@@ -55,7 +55,7 @@
   },
   {
     "id": 7,
-    "img": "/src/assets/images/card/simmons.png",
+    "img": "simmons.png",
     "badge": "Development",
     "class": "card__badge--dev",
     "title": "Highload Software Architecture",
@@ -64,7 +64,7 @@
   },
   {
     "id": 8,
-    "img": "/src/assets/images/card/murphy.png",
+    "img": "murphy.png",
     "badge": "HR & Recruting",
     "class": "card__badge--hr",
     "title": "Human Resources – Selection and Recruitment",
@@ -73,7 +73,7 @@
   },
   {
     "id": 9,
-    "img": "/src/assets/images/card/fisher.png",
+    "img": "fisher.png",
     "badge": "Design",
     "class": "card__badge--design",
     "title": "User Experience. Human-centered Design",
