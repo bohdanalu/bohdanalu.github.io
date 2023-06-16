@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "Borgia - Milano",
+    "items": [
+      {
+        "id": 1,
+        "name": "Pizza Margherita",
+        "category": "Pizza",
+        "price": 10.99
+      },
+      {
+        "id": 2,
+        "name": "Spaghetti Carbonara",
+        "category": "Pasta",
+        "price": 12.99
+      },
+      {
+        "id": 3,
+        "name": "Tiramisu",
+        "category": "Dessert",
+        "price": 6.99
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Arcano Restaurant & Music",
+    "items": [
+      {
+        "id": 1,
+        "name": "Grilled Steak",
+        "category": "Main Course",
+        "price": 22.99
+      },
+      {
+        "id": 2,
+        "name": "Caesar Salad",
+        "category": "Salad",
+        "price": 8.99
+      },
+      {
+        "id": 3,
+        "name": "Cheesecake",
+        "category": "Dessert",
+        "price": 7.99
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Ristorante Rubacuori",
+    "items": [
+      {
+        "id": 1,
+        "name": "Lasagna",
+        "category": "Pasta",
+        "price": 11.99
+      },
+      {
+        "id": 2,
+        "name": "Caprese Salad",
+        "category": "Salad",
+        "price": 9.99
+      },
+      {
+        "id": 3,
+        "name": "Panna Cotta",
+        "category": "Dessert",
+        "price": 6.99
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Tutta Nata Storia",
+    "items": [
+      {
+        "id": 1,
+        "name": "Risotto Funghi",
+        "category": "Risotto",
+        "price": 13.99
+      },
+      {
+        "id": 2,
+        "name": "Bruschetta",
+        "category": "Appetizer",
+        "price": 5.99
+      },
+      {
+        "id": 3,
+        "name": "Cannoli",
+        "category": "Dessert",
+        "price": 7.99
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Clamour Noodle House",
+    "items": [
+      {
+        "id": 1,
+        "name": "Tonkotsu Ramen",
+        "category": "Main Course",
+        "price": 10.99
+      },
+      {
+        "id": 2,
+        "name": "Gyoza",
+        "category": "Appetizer",
+        "price": 6.99
+      },
+      {
+        "id": 3,
+        "name": "Matcha Ice Cream",
+        "category": "Dessert",
+        "price": 5.99
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Officina del Riso Isola",
+    "items": [
+      {
+        "id": 1,
+        "name": "Risotto al Funghi Porcini",
+        "category": "Risotto",
+        "price": 14.99
+      },
+      {
+        "id": 2,
+        "name": "Insalata di Mare",
+        "category": "Salad",
+        "price": 10.99
+      },
+      {
+        "id": 3,
+        "name": "Torta della Nonna",
+        "category": "Dessert",
+        "price": 7.99
+      }
+    ]
+  }
+]
